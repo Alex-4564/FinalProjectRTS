@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.main{
+    background-image: url(img/img/bgMAIN.png);
+}
+
+#about{
+    background-image: url(img/img/bgABOUT.png);
+}
+
+#skills{
+    background-image: url(img/img/bgSKILLS.png);
+}
+
+#portfolio{
+    background-image: url(img/img/bgWORKS.png);
+}
+
+#reviews{
+    background-image: url(img/img/bgCOMMENTS.png);
+}
+
+.main-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 70vh;
+    height: 100vh;
+}
+
+.about-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.skills-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.portfolio-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.reviews-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.main-content{
+    height: 849px;
+    width: 223px;
+    background-image: url(img/img/form1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px;
+}
+
+.main-title{
+    color: #2B2D35;
+    font-size: 80px;
+    padding-top: 67px;
+}
+
+.main-subtitle{
+    color: #2B2D35;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+}
+
+.button{
+    height: 200px;
+    width: 60px;
+    border-radius: 100px;
+    border: 2px solid black;
+    background: #BBFF2C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    box-shadow: 5px 5px 0 #000000;
+}
+
+.button a{
+    font-size: 20px;
+    text-decoration: none;
+}
