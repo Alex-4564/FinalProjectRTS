@@ -266,3 +266,13 @@ section{
     50%{transform: translateY(42px);} */
     to{transform: translateY(-2.1rem);}
 }
+
+.skills-text{
+    background: url(img/img/form3.png);
+    height: 450px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
