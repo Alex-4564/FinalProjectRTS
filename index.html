@@ -11,19 +11,25 @@
         href="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.css"/>
 </head>
 <body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="fixed-menu">
+            <h1 class="logo">AY</h1>
+            <div class="nav-linkss">
+                <a class="nav-link" href="#">Main</a>
+                <a class="nav-link" href="#about">About me</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#work">My work</a>
+                <a class="nav-link" href="#reviews">Reviews</a>
+            </div>
+        </div>
+    </nav>
     
 
     <!-- Main page -->
     <section class="main">
         <div class="main-block">
-            <div class="navigation">
-                <a href="#" class="link active">Main</a>
-                <a href="#about" class="link">About me</a>
-                <a href="#skills" class="link">Skills</a>
-                <a href="#portfolio" class="link">Portfolio</a>
-                <a href="#reviews" class="link">Reviews</a>
-            </div>
-            <img src="img/img/maskot.png" width="125" alt="mascot">
             <div class="main-content">
                 <div class="window-dots">
                     <span></span><span></span><span></span>
@@ -86,29 +92,31 @@
     <section class="portfolio" id="portfolio">
         <h2 class="title">MY WORK</h2>
         <div class="portfolio-block">
-            <div class="img-grid">
-                <div class="img-card">
-                    <img class="work-1" src="img/img/work1.png">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/img/work1.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img/work2.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img/work3.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img/work1.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img/work2.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/img/work3.png">
+                    </div>
                 </div>
-                <div class="img-card">
-                    <img class="work-2" src="img/img/work2.png">
-                </div>
-                <div class="img-card">
-                    <img class="work-3" src="img/img/work3.png">
-                </div>
-                <div class="img-card">
-                    <img class="work-1" src="img/img/work1.png">
-                </div>
-                <div class="img-card">
-                    <img class="work-2" src="img/img/work2.png">
-                </div>
-                <div class="img-card">
-                    <img class="work-3" src="img/img/work3.png">
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
                 </div>
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-        </div>
     </section>
 
     <!-- Reviews -->
