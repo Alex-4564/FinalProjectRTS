@@ -495,4 +495,50 @@ footer{
     .about-title{
         font-size: 18px;
     }
+
+    .skills-card{
+        margin: 20px;
+        padding-left: 10px;
+        background-size: contain;
+    }
+
+    .skills-card p{
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .skills-section{
+        min-height: 60vh;
+    }
+
+    .skills-card .button{
+        position: absolute;
+        bottom: 100px;
+    }
+
+    .portfolio-block{
+        flex-direction: column;
+        padding: 20px 0
+    }
+
+    .reviews-block{
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+
+    .review{
+        background-image:
+            url(img/img/comment-mobile.png);
+        background-size: 100% 100%;
+    }
+
+    .review p{
+        font-size: 15px;
+        margin: 0;
+        max-width: 290px;
+    }
 }
