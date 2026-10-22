@@ -6,6 +6,9 @@
     font-family: 'Inter', sans-serif;
     scroll-behavior: smooth;
 }
+.off-scroll{
+    overflow: hidden;
+}
 
 body{
     position: relative;
@@ -434,6 +437,17 @@ footer{
     margin-right: 15px;
 }
 
+.mobile-button{
+    display: none;
+    padding-top: 10px;
+    width: 40px;
+    position: absolute;
+    right: 20px;
+}
+
+.hide{
+    display: none;
+}
 @media (max-width: 1000px){
 
     .nav-links{
@@ -522,6 +536,11 @@ footer{
         padding: 20px 0
     }
 
+    .swiper{
+        height: 80%;
+        width: 80%;
+    }
+
     .reviews-block{
         flex-direction: column;
         align-items: center;
@@ -540,5 +559,26 @@ footer{
         font-size: 15px;
         margin: 0;
         max-width: 290px;
+    }
+
+    .mobile-button{
+        display: block;
+    }
+
+    .mobile-menu{
+        position: absolute;
+        top: 0;
+        z-index: -1;
+        width: 100%;
+        background-color: #200153;
+        min-height: 100vh;
+    }
+
+    .mobile-nav{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
